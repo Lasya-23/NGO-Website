@@ -1,0 +1,63 @@
+body {
+  background-color: #cbb991;
+  font-family: 'Segoe UI', sans-serif;
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+h1, h2 {
+  color: #410606fb;
+}
+
+
+
+/* Navbar: dark charcoal */
+.bg-primary {
+  background-color: #333333 !important;
+}
+
+/* Navbar links: white */
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: white !important;
+}
+
+/* Navbar link hover: light gray */
+.navbar .nav-link:hover {
+  color: #dddddd !important;
+}
+
+/* Buttons: dark maroon */
+.btn-primary {
+  background-color: #6f1d1b !important;
+  border-color: #6f1d1b !important;
+  transition: all 0.3s ease;
+}
+
+/* Buttons hover: deeper maroon */
+.btn-primary:hover {
+  background-color: #501312 !important;
+  border-color: #501312 !important;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Section backgrounds: warm beige */
+.section {
+  background-color: #e6d3c4;
+  padding: 60px 0;
+}
+
+/* Footer: dark charcoal */
+footer {
+  background-color: #333333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
